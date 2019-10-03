@@ -1,6 +1,9 @@
+html {
+  color: #ffffff63;
+}
+
 body { 
-  color: #9b111e;
-  background: url(photos/Background.jpg)
+  background-color: #2a4c5d;
 }
 
 
@@ -13,12 +16,26 @@ header {
   background-color: none;
   padding: 20px;
   list-style-type: none;
-  text-align: left;
+  text-align: center;
 }
 .nav li {
   display: inline-block;
   font-size: 30px;
   padding: 0px, 25px, 0px, 25px;
+
+ }
+.nav a {
+    color: ;
 }
+.nav a:visited {
+    color: ;
+}
+.nav a:hover {
+    color: ;
+  }
+.nav a:active {
+    color: ;
+}
+
 
 
