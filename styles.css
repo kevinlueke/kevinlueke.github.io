@@ -1,31 +1,55 @@
-html {
-  color: #ffffff63;
-}
+*,
+*::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 body { 
-  background-color: #2a4c5d;
+  background-image:
+  linear-gradient(
+  to top right,
+  #2C2B30,
+  #4F4F51,
+  #D6D6D6  
+  );
 }
 
+h1 {
+  color: #ffcc80;
+  padding: 5px;
+}
 
-header {
-  text-align: center;
+section.short-about {
+  color: #c57a00;
+}
+
+section.short-about h2 {
+  padding: 2px 10px;
+}
+
+section.short-about p {
+  color: #c57a00;
+  padding: 15px;
 }
 
 /*Navigation Bar*/
 .nav {
   background-color: none;
-  padding: 20px;
+  padding: 2px;
   list-style-type: none;
-  text-align: center;
+  text-align: right;
 }
 .nav li {
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   padding: 0px, 25px, 0px, 25px;
 
  }
 .nav a {
-    color: ;
+  text-decoration: none;
+  color: #ff9f05;
 }
 .nav a:visited {
     color: ;
