@@ -38,7 +38,6 @@ h1 {
 /*Navigation Bar*/
 .nav {
   padding: 50px 5px 80px;
-  list-style-type: none;
 }
 .nav li {
   display: inline-block;
@@ -58,5 +57,10 @@ h1 {
   }
 .nav a:active {
     color: ;
+}
+
+/*****Works hyperlink list*****/
+.works a {
+  text-decoration: none;
 }
 

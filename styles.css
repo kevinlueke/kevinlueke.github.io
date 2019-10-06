@@ -49,7 +49,6 @@ section.short-about h2 {
 /*Navigation Bar*/
 .nav {
   padding: 50px 5px 80px;
-  list-style-type: none;
 }
 .nav li {
   display: inline-block;
