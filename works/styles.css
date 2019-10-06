@@ -32,7 +32,6 @@ h1 {
   color: #c57a00;
   padding: 15px 5px 50px;
   font-size: 2rem;
-  text-align: right;
 }
 
 /*Navigation Bar*/
@@ -61,6 +60,10 @@ h1 {
 
 /*****Works hyperlink list*****/
 .works a {
+  color: #ff9f05;
   text-decoration: none;
 }
 
+.works {
+  padding: 20px;
+}
