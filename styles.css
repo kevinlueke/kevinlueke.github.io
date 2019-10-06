@@ -22,6 +22,9 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  /****Font family for whole page****/
+  font-family: Lucida Grande, Arial, Sans-serif;
 }
 
 h1 {
