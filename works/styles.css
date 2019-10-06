@@ -1,0 +1,62 @@
+*,
+*::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html { 
+ 
+  /**** Fills page with gradient color mix, scales it, centers it, no scroll bar, cross-browser compatible****/
+  background:
+  no-repeat center center fixed
+  linear-gradient(
+  to top right,
+  #2C2B30,
+  #4F4F51,
+  #D6D6D6  
+  );
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /****Font family for whole page****/
+  font-family: Lucida Grande, Arial, Sans-serif;
+}
+
+h1 {
+  font-family: Lucida Grande, Arial, Sans-serif;
+  color: #c57a00;
+  padding: 15px 5px 50px;
+  font-size: 2rem;
+  text-align: right;
+}
+
+/*Navigation Bar*/
+.nav {
+  padding: 50px 5px 80px;
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 0px 25px;
+
+ }
+.nav a {
+  text-decoration: none;
+  color: #ff9f05;
+}
+.nav a:visited {
+    color: ;
+}
+.nav a:hover {
+    color: ;
+  }
+.nav a:active {
+    color: ;
+}
+
