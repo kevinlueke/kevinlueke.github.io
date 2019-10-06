@@ -6,45 +6,52 @@
     padding: 0;
   }
 
-body { 
-  background-image:
+html { 
+ 
+  /**** Fills page with gradient color mix, scales it, centers it, no scroll bar, cross-browser compatible****/
+  background:
+  no-repeat center center fixed
   linear-gradient(
   to top right,
   #2C2B30,
   #4F4F51,
   #D6D6D6  
   );
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
-  color: #ffcc80;
-  padding: 5px;
+  font-family: Lucida Grande, Arial, Sans-serif;
+  color: #c57a00;
+  padding: 15px 5px 50px;
+  font-size: 3rem;
+  text-align: right;
 }
 
 section.short-about {
   color: #c57a00;
+  text-align: center;
+  padding: 80px 150px 0;
 }
 
 section.short-about h2 {
-  padding: 2px 10px;
-}
-
-section.short-about p {
-  color: #c57a00;
-  padding: 15px;
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 /*Navigation Bar*/
 .nav {
-  background-color: none;
-  padding: 2px;
+  padding: 50px 5px 80px;
   list-style-type: none;
-  text-align: right;
 }
 .nav li {
   display: inline-block;
   font-size: 25px;
-  padding: 0px, 25px, 0px, 25px;
+  padding: 0px 25px;
 
  }
 .nav a {
