@@ -60,12 +60,13 @@ h1 {
 
 /*****Works hyperlink list*****/
 .works a {
-  color: #ff9f05;
   text-decoration: none;
 }
 
 .works {
-  padding: 20px;
+  padding: 30px;
+  color: #ff9f05;
+  font-size: 2rem;
 }
 
 /***Footer***/
@@ -78,3 +79,19 @@ footer {
    background:#999;
 }
 
+
+
+/***Stiched look links -code snippet from css-tricks***/
+ .works a {
+   padding: 20px;
+   margin: 10px;
+   background: #ff9f05;
+   color: #fff;
+   font-size: 21px;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #ff9f05, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+}
