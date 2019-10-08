@@ -28,53 +28,33 @@ html {
 
 h1 {
   font-family: Lucida Grande, Arial, Sans-serif;
- /* padding: 15px 5px 50px;
-  font-size: 3rem;*/
-  text-align: right;
+  text-align: center;
 }
 
 section.short-about {
   text-align: center;
- /* padding: 80px 150px 0;*/
 }
 
 section.short-about h2 {
- /* font-size: 2rem;
-  margin-bottom: 40px;*/
 }
 
 
 /*Navigation Bar*/
 .nav {
- /* padding: 50px 5px 80px;*/
 }
 .nav li {
   display: inline-block;
-  /*font-size: 25px;
-  padding: 0px 25px;*/
-
  }
 .nav a {
   text-decoration: none;
 }
-.nav a:visited {
-    color: ;
-}
 .nav a:hover {
-    color: ;
+    color: #fff;
+    background-color: #fb0101cf;
+    border-radius: 25%;
   }
 .nav a:active {
-    color: ;
-}
-
-/***Footer***/
-footer {
-   position:fixed;
-   left: 0;
-   bottom: 0;
-   height: 30px;
-   width: 100%;
-   background: #999;
+    color: #cacaca;
 }
 
 @media screen and (max-width: 500px) {
@@ -111,4 +91,21 @@ footer {
   nav ul {
     display: flex;
     justify-content: space-around;
+    align-content: space-around;
   }
+
+  /***Footer***/
+  footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     height: 30px;
+     width: 100%;
+     background: #980202f7;
+     padding: .25rem;
+   }
+
+   span {
+     font-weight: bold;
+   }
+
