@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Acme Corpration</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Acme|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/acme.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Acme Corporation</h1>
+
+      <nav>
+        <ul>
+          <li><a href="acme.html" class="active">Home</a></li>
+          <li><a href="acme.html#about">About</a></li>
+          <li><a href="acme.html#services">Services</a></li>
+          <li><a href="acme.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>Welcome</h2>
+
+      <p>
+        This is the website for Acme Corporation, maker of cartoon dynamite, anvils, and all manner of looney contraptions. If you are in a lifelong feud with a cartoon character, like a loveable mouse or a cheeky road runner, then we are here to help!
+      </p>
+
+      <a href="acme.html#contact">Contact Us</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      
+      <p>
+        Here you can find information about all the services we offer to the intrepid customer:
+      </p>
+
+      <article>
+        <img src="images/manual.svg" alt="An icon of a manual"/>
+
+        <h3>Fool-Proof Products</h3>
+
+        <p>
+          Our products are so easy to use only an absolute baffoon could screw things up. Seriously. They'll never blow up in your face.
+        </p>
+      </article>
+
+      <article>
+        <img src="images/delivery.svg" alt="An icon of a delivery truck"/>
+
+        <h3>Fast Delivery</h3>
+
+        <p>
+          Our delivery is practically instantaneous. We know your time is important. When you need a bear trap, you need it now!
+        </p>
+      </article>
+
+      <article>
+        <img src="images/service.svg" alt="An icon of a headset"/>
+
+        <h3>Customer Service</h3>
+
+        <p>
+          Our technicians are always available to answer all your questions. If you need to calculate the tension force required to catapult a piano across a canyon, we're here to help.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 1923 Warner Bros.
+      </p>
+      
+      <p>
+        <small>Acme assumes no responsibility for product failures.</small>
+      </p>
+    </footer>
+  </body>
+</html>
