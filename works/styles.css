@@ -165,3 +165,14 @@ h1 {
       font-size: 1.3rem
     }
   }
+
+  @media screen and (min-width: 700px) {
+   section ul {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .works {
+      margin-top: 5rem;
+    }
+  }
