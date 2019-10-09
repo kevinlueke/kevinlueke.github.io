@@ -58,18 +58,20 @@ h1 {
   .nav-text {
     padding: .5rem;
   }
-
-/*****Works hyperlink list*****/
-.works a {
-  text-decoration: none;
+  .res-li {
+   padding: 20px;
+   margin: 5px;
+   background: #0000007d;
+   font-size: 1.2rem;
+   line-height: 1.3em;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #000000, 9px 9px 0px 0px rgb(10, 10, 0);
+   font-weight: normal;
 }
-
-.works {
-  padding: 1.5rem;;
-  color: #ff9f05;
-  font-size: 2rem;
+  section ul {
+  list-style-type: none;
 }
-
 /***Footer***/
   footer {
      position: fixed;
@@ -86,29 +88,12 @@ h1 {
    span {
      font-weight: bold;
    }
-   /***Stiched look links -code snippet from css-tricks***/
- .works a {
-   padding: 20px;
-   margin: 5px;
-   background: #0000007d;
-   font-size: .9rem;
-   line-height: 1.3em;
-   border: 2px dashed #fff;
-   border-radius: 10px;
-   box-shadow: 0 0 0 4px #00000061, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
-   font-weight: normal;
-}
-.works a:hover {
-  color: #080080;
-}
-.works a:focus {
-  color: #000;
-}
-/** Before 500px **/
-  @media screen and (max-width: 499px) {  
+
+  /** Before 500px **/
+  @media screen and (max-width: 499px) {
    h1 {
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 2rem;
     text-shadow: 1px 2px 0 black;
   }
 
@@ -126,13 +111,18 @@ h1 {
       border-radius: 20%;
       padding: .1rem;
     }
-
+    section {
+      padding: 1rem 3rem 3rem 3rem;
+    }
+    .res-li {
+      margin: 1rem;
+    }
    }
-/** After screen passes 500px **/ 
+/** After screen passes 500px **/
   @media screen and (min-width: 500px) {
-        h1 {
+    h1 {
       text-align: center;
-      margin: 2rem;
+      margin: 4rem 2rem 2rem 2rem;
       padding: .5rem;
       border: 1px solid black;
       box-shadow: 7px 6px black;
@@ -150,22 +140,24 @@ h1 {
     section {
       display: flex;
       justify-content: center;
+      margin-top: 7rem;
     }
     section ul {
-    list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    .works a {
-      font-size: 1.3rem
+    .res-li {
+      width: 45%;
+      margin: 1rem 1rem 3rem 1rem;
     }
   }
 
-  @media screen and (min-width: 700px) {
-   section ul {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    }
-    .works {
-      margin-top: 5rem;
+  @media screen and (min-width: 900px) {
+    .res-li {
+      width: 25%;
+      margin: 3rem;
     }
   }
+
+ 
