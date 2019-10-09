@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #ffffff;
+
   }
 
 html { 
@@ -12,10 +14,8 @@ html {
   background:
   no-repeat center center fixed
   linear-gradient(
-  to top right,
-  #2C2B30,
-  #4F4F51,
-  #D6D6D6  
+  #ff8a00, 
+  #d53030  
   );
   background-size: cover;
   -webkit-background-size: cover;
@@ -29,34 +29,35 @@ html {
 
 h1 {
   font-family: Lucida Grande, Arial, Sans-serif;
-  color: #c57a00;
-  padding: 15px 5px 50px;
-  font-size: 2rem;
 }
 
 /*Navigation Bar*/
-.nav {
-  padding: 50px 5px 80px;
-}
 .nav li {
   display: inline-block;
-  font-size: 25px;
-  padding: 0px 25px;
-
  }
 .nav a {
   text-decoration: none;
-  color: #ff9f05;
-}
-.nav a:visited {
-    color: ;
 }
 .nav a:hover {
-    color: ;
+    color: #fff;
+    background-color: #f57615;
+    border-radius: 5% 30%;
   }
 .nav a:active {
-    color: ;
+    color: #cacaca;
 }
+  nav {
+    box-shadow: inset  0 0 34px 13px #feffff99;
+    font-size: 2rem;
+    text-shadow: 2px 1px 6px black;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+    padding: 1rem;
+  }
+  .nav-text {
+    padding: .5rem;
+  }
 
 /*****Works hyperlink list*****/
 .works a {
@@ -64,34 +65,103 @@ h1 {
 }
 
 .works {
-  padding: 30px;
+  padding: 1.5rem;;
   color: #ff9f05;
   font-size: 2rem;
 }
 
 /***Footer***/
-footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background:#999;
-}
+  footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     height: 30px;
+     width: 100%;
+     background: #980202f7;
+     padding: .25rem;
+     font-size: .8rem;
+     text-align: center;
+   }
 
-
-
-/***Stiched look links -code snippet from css-tricks***/
+   span {
+     font-weight: bold;
+   }
+   /***Stiched look links -code snippet from css-tricks***/
  .works a {
    padding: 20px;
-   margin: 10px;
-   background: #ff9f05;
-   color: #fff;
-   font-size: 21px;
+   margin: 5px;
+   background: #0000007d;
+   font-size: .9rem;
    line-height: 1.3em;
    border: 2px dashed #fff;
    border-radius: 10px;
-   box-shadow: 0 0 0 4px #ff9f05, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
-   text-shadow: -1px -1px #aa3030;
+   box-shadow: 0 0 0 4px #00000061, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    font-weight: normal;
 }
+.works a:hover {
+  color: #080080;
+}
+.works a:focus {
+  color: #000;
+}
+/** Before 500px **/
+  @media screen and (max-width: 499px) {  
+   h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-shadow: 1px 2px 0 black;
+  }
+
+    nav {
+      line-height: 1.4;
+      font-size: 1.5rem;
+    }
+    nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    }
+    .nav a {
+      border: 3px solid #EA5F31;
+      border-radius: 20%;
+      padding: .1rem;
+    }
+
+   }
+/** After screen passes 500px **/ 
+  @media screen and (min-width: 500px) {
+    .short-about {
+      width: 75%;
+      padding: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px 12px black;
+    }
+    h1 {
+      text-align: center;
+      margin: 2rem;
+      padding: .5rem;
+      border: 1px solid black;
+      box-shadow: 7px 6px black;
+      background-color: #e65527;
+          }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    }
+    nav {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section {
+      display: flex;
+      justify-content: center;
+    }
+    section ul {
+    list-style-type: none;
+    }
+    .works a {
+      font-size: 1.3rem
+    }
+  }
