@@ -57,7 +57,6 @@ main {
   text-shadow: -1px 0px 4px black;
 }
 
-/**  **/
 /**Resume only**/
 .res-li {
   padding: 20px;
@@ -75,7 +74,6 @@ main {
   list-style-type: none;
 }
 
-/** **/
 /*Navigation Bar*/
 .nav li {
   display: inline-block;
