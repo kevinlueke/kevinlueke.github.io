@@ -21,10 +21,6 @@ html {
   font-family: Lucida Grande, Arial, Sans-serif;
 }
 
-h1 {
-  font-family: Lucida Grande, Arial, Sans-serif;
-}
-
 /**Home only**/
 section.short-about {
   text-align: center;
@@ -37,7 +33,6 @@ main {
 }
 
 .h1-home {
-  font-size: 2rem;
   padding-top: 4rem;
   padding-bottom: 5rem;
   text-shadow: -4px 5px 6px black;
@@ -114,15 +109,12 @@ nav {
 
 .works {
   padding: 1.5rem;
-  ;
-  color: #ff9f05;
   font-size: 2rem;
 }
 
 /***Footer***/
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   height: 30px;
   width: 100%;
@@ -179,7 +171,6 @@ span {
   nav ul {
     display: flex;
     justify-content: space-around;
-    align-content: space-around;
   }
 
   .nav a {
@@ -288,4 +279,4 @@ span {
     width: 25%;
     margin: 3rem;
   }
-} 
+}
