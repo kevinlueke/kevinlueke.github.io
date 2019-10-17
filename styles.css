@@ -8,20 +8,23 @@
 }
 
 html {
-  /**** Fills page with gradient color mix, scales it, centers it, no scroll bar, cross-browser compatible****/
+
+/**** Fills page with gradient color mix, scales it, centers it, no scroll bar, cross-browser compatible ****/
   background:
-    no-repeat center center fixed linear-gradient(#ff8a00,
-      #d53030);
+    no-repeat center center fixed linear-gradient(
+    #ff8a00, #d53030
+    );
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /****Font family for whole page****/
+
+  /**** Font family for whole page ****/
   font-family: Lucida Grande, Arial, Sans-serif;
 }
 
-/**Home only**/
+/** Home only **/
 section.short-about {
   text-align: center;
 }
@@ -39,7 +42,9 @@ main {
   text-align: center;
 }
 
-.short-about, .h2-home, .p-home {
+.short-about,
+.h2-home,
+.p-home {
   padding: 1rem;
 }
 
@@ -47,12 +52,14 @@ main {
   margin: 4rem 1rem 1rem 1rem;
 }
 
-.h2-home, .p-home, .quote {
+.h2-home,
+.p-home,
+.quote {
   line-height: 1.3;
-  text-shadow: -1px 0px 4px black;
+  text-shadow: -1px 0 4px black;
 }
 
-/**Resume only**/
+/** Resume only **/
 .res-li {
   padding: 20px;
   margin: 5px;
@@ -61,7 +68,7 @@ main {
   line-height: 1.3em;
   border: 2px solid #fff;
   border-radius: 10px;
-  box-shadow: 0 0 0 4px #000000, 9px 9px 0px 0px rgb(10, 10, 0);
+  box-shadow: 0 0 0 4px #000000, 9px 9px 0 0 rgb(10, 10, 0);
   font-weight: normal;
 }
 
@@ -69,7 +76,7 @@ main {
   list-style-type: none;
 }
 
-/*Navigation Bar*/
+/* Navigation Bar */
 .nav li {
   display: inline-block;
 }
@@ -94,15 +101,15 @@ nav {
   text-shadow: 2px 1px 6px black;
   width: 100%;
   margin-top: 2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   padding: 1rem;
 }
 
 .nav-text {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-/*****Works hyperlink list*****/
+/***** Works hyperlink list *****/
 .works a {
   text-decoration: none;
 }
@@ -112,15 +119,15 @@ nav {
   font-size: 2rem;
 }
 
-/***Footer***/
+/*** Footer ***/
 footer {
   position: fixed;
   bottom: 0;
   height: 30px;
   width: 100%;
   background: #980202f7;
-  padding: .25rem;
-  font-size: .8rem;
+  padding: 0.25rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -128,12 +135,12 @@ span {
   font-weight: bold;
 }
 
-/***Stiched look links -code snippet from css-tricks***/
+/*** Stiched look links -code snippet from css-tricks ***/
 .works a {
   padding: 20px;
   margin: 5px;
   background: #0000007d;
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.3em;
   border: 2px dashed #fff;
   border-radius: 10px;
@@ -176,7 +183,7 @@ span {
   .nav a {
     border: 3px solid #EA5F31;
     border-radius: 20%;
-    padding: .1rem;
+    padding: 0.1rem;
   }
 
   .quote {
@@ -189,7 +196,7 @@ span {
   .h1-works {
     text-align: center;
     margin: 2rem;
-    padding: .5rem;
+    padding: 0.5rem;
     border: 1px solid black;
     box-shadow: 7px 6px black;
     background-color: #e65527;
@@ -198,7 +205,7 @@ span {
   .h1-resume {
     text-align: center;
     margin: 4rem 2rem 2rem 2rem;
-    padding: .5rem;
+    padding: 0.5rem;
     border: 1px solid black;
     box-shadow: 7px 6px black;
     background-color: #e65527;
@@ -242,7 +249,7 @@ span {
   }
 
   .works a {
-    font-size: 1.3rem
+    font-size: 1.3rem;
   }
 
   .short-about {
